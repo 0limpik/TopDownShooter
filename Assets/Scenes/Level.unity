@@ -1905,7 +1905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 480679188}
   m_Layer: 0
-  m_Name: spawnPointPlayer
+  m_Name: SpawnPointPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1919,7 +1919,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480679187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.91, y: 0, z: 2.33}
+  m_LocalPosition: {x: -19.1, y: 0, z: 2.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1371298190}
@@ -3689,7 +3689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418968347}
   m_Layer: 0
-  m_Name: spawnPointEnemy
+  m_Name: SpawnPointEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6365,7 +6365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5191436307815095867, guid: a28ecbdf5808ab641b2c416ca80ba83a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.8
+      value: -18.9
       objectReference: {fileID: 0}
     - target: {fileID: 5191436307815095867, guid: a28ecbdf5808ab641b2c416ca80ba83a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6373,7 +6373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5191436307815095867, guid: a28ecbdf5808ab641b2c416ca80ba83a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.89
+      value: 2.02
       objectReference: {fileID: 0}
     - target: {fileID: 5191436307815095867, guid: a28ecbdf5808ab641b2c416ca80ba83a, type: 3}
       propertyPath: m_LocalRotation.w
