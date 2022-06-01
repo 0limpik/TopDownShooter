@@ -1,4 +1,5 @@
 # TopDownShooter
+![image](https://user-images.githubusercontent.com/50516863/171471958-70840db9-8e63-48fe-9ce4-db6c5b47f8a8.png)
 
 ## ИИ
 
