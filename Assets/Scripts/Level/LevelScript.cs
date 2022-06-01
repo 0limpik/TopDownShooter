@@ -20,7 +20,8 @@ namespace TopDown.Scripts.Level
         [SerializeField] private UnitScript player;
         [SerializeField] private UnitScript enemy;
 
-        [SerializeField] private Transform[] spawnPoints = new Transform[0];
+        [SerializeField] private Transform spawnPlayer;
+        [SerializeField] private Transform spawnEnemy;
 
         [SerializeField] private float loseHeight = -5f;
 
@@ -69,23 +70,8 @@ namespace TopDown.Scripts.Level
                 Destroy(bullet.gameObject);
             }
 
-            var playerPos = spawnPoints[Random.Range(0, spawnPoints.Length)].position;
-
-            var enemyPos = playerPos;
-
-            foreach (var point in spawnPoints)
-            {
-                var deltaPoint = enemyPos - point.position;
-                var deltaPlayer = enemyPos - playerPos;
-
-                if (deltaPoint.magnitude > deltaPlayer.magnitude)
-                {
-                    enemyPos = point.position;
-                }
-            }
-
-            player.transform.position = playerPos;
-            enemy.transform.position = enemyPos;
+            player.transform.position = spawnPlayer.position;
+            enemy.transform.position = spawnEnemy.position;
         }
     }
 }
