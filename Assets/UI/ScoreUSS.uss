@@ -1,0 +1,13 @@
+#score #container Label {
+    font-size: 52px;
+    -unity-text-align: upper-center;
+}
+
+#divider {
+    color: white;
+}
+
+#difficult {
+    font-size: 32px;
+    color: white;
+}

@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="EventsUSS.uss" />
+    <Style src="ScoreUSS.uss" />
+    <ui:VisualElement name="events" style="flex-direction: row; width: 100%; justify-content: space-between; margin-left: 0; margin-right: 0; padding-left: 5%; padding-right: 5%; margin-top: 1%; margin-bottom: 0;">
+        <ui:VisualElement name="player" class="player" style="align-items: flex-start;">
+            <ui:Label text="Name" display-tooltip-when-elided="true" name="name" />
+            <ui:VisualElement name="container" class="container" style="align-items: flex-start;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" />
+                <ui:Label text="Label2" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="enemy" class="enemy" style="align-items: flex-end; position: relative;">
+            <ui:Label text="Name" display-tooltip-when-elided="true" name="name" />
+            <ui:VisualElement name="container" class="container">
+                <ui:Label text="Label" display-tooltip-when-elided="true" />
+                <ui:Label text="Label2" display-tooltip-when-elided="true" />
+                <ui:Label text="Label3" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="score" style="position: absolute; align-items: center; width: 100%; margin-top: 2%;">
+        <ui:VisualElement name="container" style="flex-direction: row; align-items: center; justify-content: center;">
+            <ui:Label text="0" display-tooltip-when-elided="true" name="player" class="player" />
+            <ui:Label text=":" display-tooltip-when-elided="true" name="divider" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="enemy" class="enemy" />
+        </ui:VisualElement>
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="difficult" />
+    </ui:VisualElement>
+</ui:UXML>

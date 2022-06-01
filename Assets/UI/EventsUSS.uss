@@ -1,0 +1,28 @@
+Label {
+    -unity-font-style: bold;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: black;
+}
+
+.container {
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+.container Label {
+    font-size: 32px;
+    -unity-text-align: middle-left;
+}
+
+#name {
+    font-size: 48px;
+}
+
+.player, .player Label {
+    color: deepskyblue;
+}
+
+.enemy, .enemy Label {
+    color: brown;
+}

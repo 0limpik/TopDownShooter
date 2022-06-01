@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52deae3951621bb418d9cce4515f1064, type: 3}
+  m_Name: UltraChaseAttack
+  m_EditorClassIdentifier: 
+  <ChaseAttack>k__BackingField:
+    chaseDuration: 12
+    attack:
+      <DrawGizmos>k__BackingField: 0
+      shootRadius: 25
+      attackRadius: 30
+      hearShoot:
+        <DrawGizmos>k__BackingField: 0
+        hearRadius: 20
+      strafeFollow:
+        <DrawGizmos>k__BackingField: 0
+        followRadius: 12
+        strafeMove:
+          <DrawGizmos>k__BackingField: 0
+          width: 7
+          height: 1.5
+        move:
+          <DrawGizmos>k__BackingField: 0
+      strafeCircle:
+        <DrawGizmos>k__BackingField: 0
+        strafeCircle:
+          <DrawGizmos>k__BackingField: 0
+        wait:
+          delay: 0.25
+          range: 1.5
+          pastTime: 0
+      predictionPosition:
+        positionsCacheTime: 5
